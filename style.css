@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #312E2B;
+}
+.upper{
+    background-color:#312E2B;
+    display:flex;
+}
+.side-navbar{
+    position:fixed;
+    display:inline-block;
+    background-color:#272522;
+    width: 145px;
+    height: 1020px;
+}
+.img-top{
+    margin-top: 1px;
+    background-image: url("chess img.png");
+    background-size: cover;
+    width: 120px;
+    height: 45px;
+}
+/** for nav items **/
+.nav-item1{
+    display:flex;
+    width:150px;
+    height:50px;
+    font-size: 16px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    color: #DFDEDE;
+    margin-top:10px;
+}
+
+.nav-item2{
+    display:flex;
+    width:150px;
+    height:50px;
+    font-size: 16px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    color: #DFDEDE;
+    margin-top:10px;
+}
+
+.nav-item3{
+    display:flex;
+    width:150px;
+    height:50px;
+    font-size: 16px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    color: #DFDEDE;
+    margin-top:10px;
+}
+
+.nav-item4{
+    display:flex;
+    width:150px;
+    height:50px;
+    font-size: 16px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    color: #DFDEDE;
+    margin-top:10px;
+}
+
+.nav-item5{
+    display:flex;
+    width:150px;
+    height:50px;
+    font-size: 16px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    color: #DFDEDE;
+    margin-top:10px;
+}
+.button1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    width:125px;
+    height:50px;
+    background-color: #272522;
+    color:#C4C3C3;
+}
+.button2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    width:125px;
+    height:50px;
+    background-color:#272522;
+    color:#C4C3C3;
+}
+button{
+    width:125px;
+    height:50px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #383634;
+    color:#C4C3C3;
+    border-radius:15%;
+    margin-left:10%;
+}
+.button2 button{
+    background-color:#7FA650;
+    color:#FFFFFF;
+}
+.img{
+    height:500px;
+    width:500px;
+    background-image:url("chessboard.png") ;
+    background-size: cover;
+    margin-left:20px;
+    margin-top:10px;
+}
+.menu{
+    width:530px;
+    height:530px;
+}
+.mid-content{
+    position:relative;
+    display: flex;
+    width:fit-content;
+    height:520px;
+    left:225px;
+
+}
+.menu{
+    width: 430px;
+    height: 220px;
+    font-weight:800;
+    font-size:3.5rem;
+    color:#FFFFFF;
+    text-align:center ;
+    position:relative;
+    left:40px;
+    top: 40px;
+}
+.play{
+    height:180px;
+    width:450px;
+}
+.nav-panel{
+    width:450px;
+    height:35px;
+    display:flex;
+    font-weight: 200;
+    font-size: 1.1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:0px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    margin-left:0px;
+}
+.today {
+    display: flex;
+}
+.current{
+    display:flex;
+}
+.we{
+    color:#989792;
+}
+.button-1 button{
+    text-align: center;
+    width:400px;
+    height:100px;
+    border-radius: 1rem;
+    background-color: #7FA550;
+    color:white;
+}
+.add-icon{
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    font-weight: 600;
+}
+.button-2 button{
+    position:relative;
+    top:20px;
+    text-align: center;
+    width:400px;
+    height:100px;
+    border-radius: 1rem;
+    background-color: #413E3C;
+    color:white;
+}
+.hero-section{
+    position:relative;
+    display:flex;
+    width:1100px;
+    height:580px;
+    background-color: #272522;
+    left:243px;
+    top:50px;
+    border-radius:.5rem;
+}
+.img1{
+    display:inline-block;
+    width:450px;
+    height:400px;
+    background-image:url("puzzle.png") ;
+    background-size:cover ;
+    position:relative;
+    left:20px;
+    top:10px;
+}
+.hero-index{
+    font-size: 3rem;
+    color:white;
+    text-align: center;
+    position:relative;
+    left:10%;
+    top:10%;
+}
+.button3 button{
+    position:relative;
+    top:80px;
+    font-size: 1.5rem;
+    text-align: center;
+    width:300px;
+    height:70px;
+    border-radius: 1rem;
+    background-color: #7FA550;
+    color:white;
+}
+.img5{
+    border-radius:.5rem;
+    position:relative;
+    top:160px;
+    right:40px;
+    background-image: url("hikaru.jpg");
+    background-size: cover;
+    height:150px;
+    width:150px;
+}
+.hikaru-line{
+    position:relative;
+    left:70px;
+    top:30px;
+    font-size: 1.1rem;;
+}
+#hik{
+    position:relative;
+    left:50px;
+    top:30px;
+    font-weight: 700;
+}
